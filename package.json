@@ -1,0 +1,27 @@
+{
+  "name": "sublevel-streams",
+  "version": "0.0.1-alpha",
+  "description": "use `level-sublevel` like data structure that utilizes streams for data bindings in frontend components",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "@serapath",
+  "license": "MIT",
+  "dependencies": {
+    "after": "^0.8.2",
+    "djoin": "^4.0.0",
+    "dsplit": "^4.0.0",
+    "getval": "^5.0.0",
+    "readable-stream": "^2.1.5",
+    "setval": "^5.1.2",
+    "x-is-ducktype-array": "^1.0.1",
+    "x-is-empty-object": "^1.0.1",
+    "x-is-function": "^1.0.3",
+    "x-is-object": "^0.1.0",
+    "x-is-string": "^0.1.0"
+  },
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
+}
